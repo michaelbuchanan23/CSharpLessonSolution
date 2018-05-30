@@ -84,8 +84,8 @@ namespace CSharpLesson {
 			frames[9] = 4;
 			int game = frames.Sum(f => f);
 			Console.WriteLine(game);
+			
 			//frames.Length tells us there are 10 items in the array
-
 			/* can also calculate score with a counter
 			int score = 0;
 			for (int idx = 0; idx < frames.Length; idx++)
